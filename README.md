@@ -9,12 +9,13 @@ Integrantes: Jesica Arango y Maria Fernanda Gonzalez
 Analizar cómo varía el peso corporal de los pingüinos según su especie y su isla, y determinar si el largo de la aleta se relaciona con el peso.
 
 ## Datos
--Fuente:dataset de pingüinos de Kaggle (`desafiopinguinos.csv`, separado por `;`).
--Muestra usada: 85 pingüinos elegidos al azar (`random_state=42`) después de eliminar filas con datos vacíos.
--Adaptación: el dataset no tiene columna de eventos ni de año, así que la "cantidad de eventos" es el número de pingüinos por isla y el filtro por año se reemplazó por un filtro por peso.
+- Fuente:dataset de pingüinos de Kaggle (`desafiopinguinos.csv`, separado por `;`).
+- Muestra usada: 85 pingüinos elegidos al azar (`random_state=42`) después de eliminar filas con datos vacíos.
+- Adaptación: el dataset no tiene columna de eventos ni de año, así que la "cantidad de eventos" es el número de pingüinos por isla y el filtro por año se reemplazó por un filtro por peso.
 
 ## Variables principales
 | Variable | Descripción |
+| --- | --- |
 | `species` | Especie del pingüino (Adelie, Chinstrap, Gentoo) |
 | `island` | Isla donde vive (Biscoe, Dream, Torgersen) |
 | `flipper_length_mm` | Largo de la aleta en milímetros |
@@ -31,6 +32,7 @@ Analizar cómo varía el peso corporal de los pingüinos según su especie y su 
 
 ## Archivos del repositorio
 | Archivo | Contenido |
+| --- | --- |
 | `desafiojessymafe.ipynb` | Notebook con todo el código, comentado |
 | `desafiopinguinos.csv` | Datos originales |
 | `pinguinos_muestra.xlsx` | Muestra de 85 pingüinos exportada |
